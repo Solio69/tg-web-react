@@ -1,4 +1,4 @@
-@import './constants/constants.module';
+@import '../constants/constants.module';
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
 
   body {
     background: $secondary-bg-color;
-    color: var(--tg-theme-text-color);
+    color: $text-color;
   }
 }
 

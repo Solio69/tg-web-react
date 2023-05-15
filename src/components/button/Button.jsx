@@ -4,7 +4,7 @@ import './Button.scss'
 const Button = ({text, onButtonClick}) => {
 
   return (
-    <button className='button' onClick={() => onButtonClick()}>
+    <button className='button' onClick={onButtonClick}>
       {text}
     </button>
   )

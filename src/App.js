@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="App">
-      <Button onClick={onClose} text={'Close App'}/>
+      <Button onButtonClick={onClose} text={'Close App'}/>
     </div>
   )
 }

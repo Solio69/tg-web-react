@@ -5,7 +5,7 @@ const Button = ({text, onButtonClick}) => {
 
   return (
     <button className='button' onClick={onButtonClick}>
-      {text}
+      {text.toUpperCase()}
     </button>
   )
 }
